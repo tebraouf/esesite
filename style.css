@@ -1,0 +1,91 @@
+
+ body{
+ font-familly : 'Arial', Calibri, sans-serif;
+ margin : 0px;
+ padding : 0px;
+ 
+ }
+ 
+ h1{
+ font-size : 40px;
+ font-weight : Arial;
+ text-align : center;
+ text-shadow : 10px 10px 2px teal ;
+ color : black ;
+
+ }
+ 
+ #logo{
+ float : left;
+ width : 20%;
+ height: 290px
+ }
+ .RightText{
+ float : right;
+ width : 75%;
+ text-align : center;
+ }
+ 
+ nav{
+ clear : both;
+ display: inline-block;
+ width : 80%;
+ background-color :teal ;
+}
+ 
+
+nav li{
+ list-style-type : none;
+ float : center ;
+}
+	
+ .lien1, .lien2, .lien3 {
+ width : 30%;
+ text-align : left ;
+ }
+
+ 
+ nav a{
+ display: inline-block;
+ text-decoration : none ;
+ padding : 15px 5px;
+ color : aqua ;
+ font-size : 20px;
+ text-transform : uppercase;
+ font-style : italic ;
+  }
+ 
+
+ 
+ section{
+ width : 100%;
+ min-height : 30px;
+ padding-bottom : 20 px;
+ }
+
+
+ #presentation{
+ border-top : 8px solid;
+ text-align : center; 
+ }
+ 
+ #emploi{
+ border-top : 7px solid;
+ }
+ 
+ footer{
+ height : 25px;
+ padding-top : 50px;
+ padding-bottom : 10px;
+ text-align : center;
+  }
+
+ <style>
+body {
+  background-image: url('Users\HP\Desktop\logo.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+ 

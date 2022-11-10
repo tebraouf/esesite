@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title> Mon site personnel</title>
+	<link rel="stylesheet" href="style.css"/>
+  <body>
+
+  <header>
+  <img id="logo" src="logoese.png" alt="logo de l'ESE d'Oran" width="150px" height="150px"/>
+	<div class="RightText">
+	<h1> Bienvenue sur le site de TABTI </h1>
+
+  </div>
+  <header>
+
+  <div class="menu_table">
+  <nav>
+	<ul>
+	<li class="lien1"> <a href="index.html">Accueil</a> </li>
+	<li class="lien2"> <a href="cv.html"> Mon CV</a> </li>
+	<li class="lien3"> <a href="contact.html"> Contactez-moi !</a> </li>
+	</ul>
+  </nav>
+  </div>
+
+
+  <form method="post" action="traitement.php">
+    <fieldset id="contact">
+        <legend>Informations pour me contacter</legend>
+
+		<div>
+			<label for="name" class="lab">Nom </label>
+			<input type="text" id="nom" name="user_nom">
+		</div>
+
+		<div>
+			<label for="prenom" class="lab">Prénom </label>
+			<input type="text" id="prenom" name="user_prenom">
+		</div>
+		<div>
+			<label for="mail" class="lab">Mail </label>
+			<input type="mail" id="mail" name="user_mail">
+		</div>
+
+		<div>
+			<label for="tel" class="lab">Téléphone </label>
+			<input type="text" id="tel" name="user_mail">
+		</div>
+
+		<div>
+			<label for="sujet" class="lab">Sujet </label>
+			<input type="text" id="sujet" name="sujet">
+		</div>
+
+		<div>
+			<label for="mes" class="lab">Message </label>
+			<textarea id="mes" rows="4" cols="30" placeholder="Votre Message" name="user_mes"></textarea>
+		</div>
+
+
+	 </fieldset>
+
+	<label>Envoyer le message</label>
+	<input type="submit" value="Envoyer" />
+	</form>
+
+
+  <footer>
+<p> TABTI ,Mohamed Raouf, 03 rue Hassiba Ben Bouali, Alger Centre, E-mail: tabti.medraouf@gmail.com, N°Tel:0779762355 <p>
+  </footer>
+
+
+  </body>
+</html>
